@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://yuvraaj2002.github.io/yuvraj2002",
+    "build-gh": "parcel build --public-url 'https://yuvraaj2002.github.io/yuvraj2002'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
